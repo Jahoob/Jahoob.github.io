@@ -30,8 +30,13 @@
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            // tak kurwa lapac i zminiac style albo dodawac klase ktora to zmienia jak wyzej
+            $('.navbar').css("background-color", "black")
+            $('.navbar-brand').addClass("color-change")
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $('.navbar').css("background-color", "transparent")
+            $('.navbar').removeClass("color-change")
         }
     };
     // Collapse now if page is not at top
