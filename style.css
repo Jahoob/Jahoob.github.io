@@ -307,6 +307,14 @@ header {
     color: #fff;
   }
 
+  .contact-section .small a {
+    color: rgba(0,0,0,.5);
+  }
+
+  .contact-section .small a:hover {
+    color: rgba(0,0,0,.3 );
+  }
+
 ul > li {
     display: inline;
     list-style-type: none;
