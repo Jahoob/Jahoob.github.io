@@ -284,6 +284,10 @@ header {
     border-width: 0.25rem;
     width: 3rem;
   }
+
+  .contact-section .card-body {
+    padding: 0.8rem;
+  }
   
   .contact-section .social {
     margin-top: 5rem;
