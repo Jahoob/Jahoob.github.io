@@ -37,4 +37,4 @@
     navbarCollapse();
     $(window).scroll(navbarCollapse);
 
-})(jQuery); 
+})(jQuery);
